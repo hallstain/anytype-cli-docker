@@ -3,7 +3,7 @@ services:
     build:
       context: .
       args:
-        ANYTYPE_CLI_VERSION: v0.1.8
+        ANYTYPE_CLI_VERSION: v0.1.9
     ports:
       - "31012:31012"
       - "31010:31010"
