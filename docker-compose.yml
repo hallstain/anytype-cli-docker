@@ -5,9 +5,7 @@ services:
       args:
         ANYTYPE_CLI_VERSION: v0.1.9
     ports:
-      - "31110:31010"
-      - "31111:31011"
-      - "31112:31012"
+      - "31012:31012"
     volumes:
       - anytype-data:/home/anytype/.anytype
       - ../files/network.yml:/home/anytype/.config/anytype/network.yml:ro
