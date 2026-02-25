@@ -11,5 +11,5 @@ services:
     volumes:
       - ./anytype-cli-data:/data
       - ../files/network.yml:/home/anytype/.config/anytype/network.yml:ro
-    command: ["serve", "--listen-address", "0.0.0.0:31012"]
+    command: ["serve", "--listen-address", "0.0.0.0:31012", "--grpc-listen-address", "0.0.0.0:31010"]
     restart: unless-stopped
